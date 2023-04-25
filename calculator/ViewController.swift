@@ -8,12 +8,27 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    
+    
+    
+    @IBOutlet var Result: UILabel!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
 
+    
+    
+    @IBAction func clearButtonPressed(_ sender: UIButton) {
+        Result.text = "0"
+        
+    }
+    
+    
+    
+    
 
 }
 
